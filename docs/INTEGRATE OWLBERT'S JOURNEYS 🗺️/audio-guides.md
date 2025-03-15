@@ -13,6 +13,24 @@ Owlbert prides himself on being an excellent travel companion. Owlbert's Audio G
 
 <br />
 
+<br />
+
+<SimpleStepper>
+  <SimpleStep header="Step 1: Integrate with Audio Guides API">
+    The Audio Guides API easily integrates with all major podcasting platforms.
+  </SimpleStep>
+
+  <SimpleStep header="Step 2: Search for Owlbert's Journeys Audio Guides in Your Podcasting App">
+    Favorite for easy access!
+  </SimpleStep>
+
+  <SimpleStep header="Step 3: Press Play and Get Explorin'">
+    Get to know a city with Owlbert's Audio Guides whenever you're traveling!
+  </SimpleStep>
+</SimpleStepper>
+
+<br />
+
 ## Getting Started with an Owlbert-Led Audio Guide
 
 > ⏲️ Plan Ahead!
