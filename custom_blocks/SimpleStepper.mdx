@@ -1,0 +1,105 @@
+---
+name: SimpleStepper
+---
+import React, { useState, useMemo } from "react";
+
+export const SimpleStepper = ({ children }) => {
+  console.log("Children received:", children);
+  
+  const steps = useMemo(() => (Array.isArray(children) ? children : [children]), [children]);
+  const [currentStep, setCurrentStep] = useState(0);
+
+  const containerStyle = {
+    maxWidth: "600px", // Set component width to 600px
+    margin: "40px auto", // Center component horizontally and add spacing to top and bottom
+    padding: "20px", // Create space inside the container
+    border: "1px solid #ccc", // Add light gray border
+    borderRadius: "8px", // Round the corners
+    textAlign: "center", // Center all text inside containter
+  };
+
+  
+  const indicatorContainerStyle = { marginBottom: "20px" }; // Add a space below indicators
+
+  const indicatorStyle = (active) => ({
+    display: "inline-block", // Make the indicators line up horizontally
+    width: "30px",
+    height: "30px",
+    lineHeight: "30px", // Center the text inside the indicator vertically
+    borderRadius: "50%", // Make the indicator a perfect circle
+    backgroundColor: active ? "#5A3E8B" : "#ddd", // Update active color for better contrast
+    color: active ? "white" : "black", // Set text color: white for active, black for inactive
+    margin: "0 5px", // Add spacing between indicators
+    fontWeight: "bold", // Make the step number bolder for better readability
+    boxShadow: active ? "0px 0px 10px rgba(90, 62, 139, 0.6)" : "none", // Reflect new active color
+    transition: "all 0.3s ease-in-out", // Ensure animation transition when switching steps is smooth
+  });
+
+  
+  const buttonStyle = {
+    padding: "8px 16px", // Add internal spacing inside the button
+    margin: "10px", // Add space around the button
+    border: "none",
+    borderRadius: "4px",
+    backgroundColor: "#5A3E8B", // Set the button color to purple
+    color: "white", // Set the text color as white
+    cursor: "pointer", // Change the cursor to a hand icon when hovering over the button
+  };
+  
+  const handlePrev = () => setCurrentStep((prev) => Math.max(prev - 1, 0));
+  const handleNext = () => setCurrentStep((prev) => Math.min(prev + 1, steps.length - 1));
+  
+  return (
+    <div style={containerStyle}>
+      <div style={indicatorContainerStyle}>
+        {steps.map((_, index) => (
+          <span key={index} style={indicatorStyle(index === currentStep)}>
+            {index + 1}
+          </span>
+        ))}
+      </div>
+      <div aria-live="polite">
+        {steps.length > 0 ? <>{steps[currentStep]}</> : <></>}
+      </div>
+      <div>
+        <button
+          type="button"
+          style={buttonStyle}
+          onClick={handlePrev}
+          disabled={currentStep === 0}
+          aria-label="Previous Step"
+        >
+          Back
+        </button>
+        <button
+          type="button"
+          style={buttonStyle}
+          onClick={handleNext}
+          disabled={currentStep === steps.length - 1}
+          aria-label="Next Step"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export const SimpleStep = ({ header, children }) => (
+  <div>
+    <h2>{header}</h2>
+    <div>{children}</div>
+  </div>
+);
+
+<SimpleStepper>
+  <SimpleStep header="Step 1: Plan">
+    Plan your documentation and gather resources.
+  </SimpleStep>
+  <SimpleStep header="Step 2: Write">
+    Write effective and clear documentation.
+  </SimpleStep>
+  <SimpleStep header="Step 3: Review">
+    Review and refine your content.
+  </SimpleStep>
+</SimpleStepper>
