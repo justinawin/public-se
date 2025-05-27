@@ -1,5 +1,5 @@
 ---
-title: A Day at the Met Museum
+title: 'A Day at the Met '
 deprecated: false
 hidden: false
 metadata:
