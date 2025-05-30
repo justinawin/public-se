@@ -1,10 +1,1 @@
-- create_bulk_complete_target_groups_job
-- get_bulk_complete_target_groups_job
-- create_bulk_launch_target_groups_job
-- get_bulk_launch_target_groups_job
-- create_bulk_pause_target_groups_job
-- get_bulk_pause_target_groups_job
-- create_bulk_relaunch_target_groups_job
-- get_bulk_relaunch_target_groups_job
-- create_bulk_resume_target_groups_job
-- get_bulk_resume_target_groups_job
+[]

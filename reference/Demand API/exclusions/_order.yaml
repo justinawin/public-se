@@ -1,7 +1,1 @@
-- update_bulk_target_group_exclusions_api
-- get_exclusion_by_project_api
-- get_target_group_exclusion_policy_api
-- upsert_target_group_cid_exclusion_list_api
-- get_target_group_cid_exclusion_list_api
-- upsert_target_group_rid_exclusion_list_api
-- get_target_group_rid_exclusion_list_api
+[]
