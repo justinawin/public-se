@@ -1,17 +1,1 @@
-- get_list_target_groups
-- create_target_group
-- get_target_group
-- update_target_group
-- get_target_group_details
-- update_launched_target_group_details
-- update_cost_per_interview
-- update_filling_strategy
-- get_target_group_overview
-- get_target_group_performance
-- get_rate_card
-- get_target_group_rate_card
-- compute_target_group_transitions
-- get_target_group_changelog
-- get_target_group_completes_aggregated_by_interval
-- get_re_entry_configuration
-- update_re_entry_configuration
+[]
