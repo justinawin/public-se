@@ -1,1 +1,10 @@
-[]
+- get_account_allocation_template_association
+- set_account_allocation_template_association
+- list_account_allocation_templates
+- create_account_allocation_template
+- get_account_allocation_template_by_template_id
+- update_account_allocation_template
+- delete_account_allocation_template
+- list_global_allocation_templates
+- get_global_allocation_template_by_template_id
+- get_system_allocation_template

@@ -1,1 +1,5 @@
-[]
+- report_requests
+- share_report
+- report_status
+- generate_report
+- download_report
