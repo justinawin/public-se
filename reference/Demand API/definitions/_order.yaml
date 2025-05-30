@@ -1,0 +1,9 @@
+- get_business_units
+- get_clients
+- get_countries
+- get_industries
+- get_industry_lockouts
+- get_integration_use_cases
+- get_locales
+- get_study_types
+- get_suppliers

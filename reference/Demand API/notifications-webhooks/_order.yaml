@@ -1,0 +1,7 @@
+- get_webhooks
+- create_webhook
+- get_webhook
+- update_webhook
+- delete_webhook
+- regenerate_webhook_secret
+- get_webhook_events
