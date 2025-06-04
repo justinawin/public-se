@@ -5,4 +5,9 @@ hidden: false
 metadata:
   robots: index
 ---
-<PostmanRunButton collectionId="123456-abcd-efgh-ijkl" collectionUrl="entityId=123456-abcd-efgh-ijkl&entityType=collection&workspaceId=abcdef-1234-5678" />
+```mermaid
+flowchart LR 
+ A --- B[fa:fa-spinner B] 
+ B --> C[fa:fa-check C] 
+ B --> D[fa:fa-ban D]
+```
