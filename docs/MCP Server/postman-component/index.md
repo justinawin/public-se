@@ -1,5 +1,5 @@
 ---
-title: Postman Component
+title: MCP
 deprecated: false
 hidden: true
 metadata:
