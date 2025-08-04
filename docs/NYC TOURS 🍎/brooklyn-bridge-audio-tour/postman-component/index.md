@@ -1,7 +1,7 @@
 ---
 title: Postman Component
 deprecated: false
-hidden: false
+hidden: true
 metadata:
   robots: index
 ---
