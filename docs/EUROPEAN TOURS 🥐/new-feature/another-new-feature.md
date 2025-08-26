@@ -1,0 +1,7 @@
+---
+title: Another New Feature
+deprecated: false
+hidden: false
+metadata:
+  robots: index
+---
