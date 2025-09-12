@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Owlbert's Journeys
+title: 'Getting Started with Owlbert''s Journeys '
 excerpt: >-
   This page will help you get started with Owlbert's 2025 Journeys. You'll be up
   and running in a jiffy!
