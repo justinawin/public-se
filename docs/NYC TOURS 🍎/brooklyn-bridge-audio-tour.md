@@ -1,5 +1,8 @@
 ---
 title: Brooklyn Bridge Audio Tour
+excerpt: >-
+  A classic experience that lets you explore not one but two boroughs—Manhattan
+  and Brooklyn!
 deprecated: false
 hidden: false
 metadata:
@@ -10,6 +13,8 @@ metadata:
 <Image align="left" border={false} width="30% " src="https://files.readme.io/d33904254c56d7a4939901feb725bd77391a95b2bb0116c4b883cccc24bd8813-brookly-bridge.jpg" />
 
 With its unique architecture, spectacular views, and sense of history, the iconic Brooklyn Bridge is both a destination and a journey.
+
+This 75 minute walking tour begins at the base of the Bridge on the Manhattan side and ends at the iconic Brooklyn Bridge Promenade.
 
 <br />
 
