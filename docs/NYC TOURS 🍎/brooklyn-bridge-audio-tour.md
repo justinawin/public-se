@@ -18,10 +18,6 @@ This 75 minute walking tour begins at the base of the Bridge on the Manhattan si
 
 <br />
 
-<br />
-
-<br />
-
 ## Tour Options
 
 <Tabs>
@@ -37,7 +33,7 @@ This 75 minute walking tour begins at the base of the Bridge on the Manhattan si
 <Callout icon="👟" theme="default">
   ### Sneakers highly encouraged!
 
-  This is one of the more active tours that Owlbert offers. You can walk or bike the bridge at any pace you prefer, but we recommend wearing sneakers for optimal comfort, and in case you want to do any pre- or post-trek explorations 😀
+  This is an active tour! You can walk or bike the bridge at any pace you prefer, but we recommend wearing sneakers for optimal comfort, and in case you want to do any pre- or post-trek explorations 😀
 </Callout>
 
 ## Steeped in History and Free to Visit!
