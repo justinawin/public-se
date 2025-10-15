@@ -18,6 +18,12 @@ This 75 minute walking tour begins at the base of the Bridge on the Manhattan si
 
 <br />
 
+<Callout icon="👟" theme="default">
+  ### Sneakers highly encouraged!
+
+  This is an active tour! You can walk or bike the bridge at any pace you prefer, but we recommend wearing sneakers for optimal comfort, and in case you want to do any pre- or post-trek explorations 😀
+</Callout>
+
 ## Tour Options
 
 <Tabs>
@@ -29,12 +35,6 @@ This 75 minute walking tour begins at the base of the Bridge on the Manhattan si
     A dedicated bike lane means that biking the Brooklyn Bridge is a great option too! Just be sure to stay aware as you're listening to Owlbert's audio guide!
   </Tab>
 </Tabs>
-
-<Callout icon="👟" theme="default">
-  ### Sneakers highly encouraged!
-
-  This is an active tour! You can walk or bike the bridge at any pace you prefer, but we recommend wearing sneakers for optimal comfort, and in case you want to do any pre- or post-trek explorations 😀
-</Callout>
 
 ## Steeped in History and Free to Visit!
 
